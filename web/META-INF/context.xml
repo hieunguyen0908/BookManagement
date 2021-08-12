@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/BookManagement">
-    <Resource name="LAB2" type="javax.sql.DataSource" auth="Container"
-              driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-              url="jdbc:sqlserver://localhost:1433;databaseName=BookManagement"
-              username="sa" password="123456"/>
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" name="DBConn" password="123456" type="javax.sql.DataSource" url="jdbc:sqlserver://localhost:1433;databaseName=BookManagement" username="sa"/>
 </Context>
